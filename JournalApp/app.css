@@ -1,0 +1,20 @@
+.dflex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.x-svg{
+    cursor: pointer;
+}
+@media (min-width: 600px) {
+    .x-svg{
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .sidebar{
+        display: block !important;
+    }
+}
